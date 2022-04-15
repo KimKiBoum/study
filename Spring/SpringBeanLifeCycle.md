@@ -16,11 +16,11 @@
 
 - Spring Boot에서 Component-Scan으로 Bean 등록 시작
 
-<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/@Component.png?raw=true" align="left" width=700>
+<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/Component Scan.png?raw=true" align="left" width=700>
 
 - Bean으로 등록할 수 있는 어노테이션, 설정파일을 읽어 IoC 컨테이너에 Bean으로 등록
 
-<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/@Bean.png?raw=true" align="left" width=700>
+<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/IoC Container Bean 등록 과정.png?raw=true" align="left" width=700>
 
 - 의존 관계 주입 전 객체의 생성이 일어남
 
