@@ -1,6 +1,6 @@
 ## Spring Bean Life Cycle (빈 생명주기 관리)
 
-<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/Spring%20Bean%20Life%20Cycle.jpeg?raw=true" align="left" width=700>
+<img src="/Users/kimkiboum/study/Spring/image/Spring Bean Life Cycle.jpeg" align="left" width=700>
 
 - 애플리케이션 시작 시점에 필요한 연결을 미리 해두고, 애플리케이션 종료 시점에 연결을 모두 종료하는 작업을 진행하려면, 객체의 초기화와 종료 작업이 필요
 
@@ -16,11 +16,11 @@
 
 - Spring Boot에서 Component-Scan으로 Bean 등록 시작
 
-<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/Component Scan.png?raw=true" align="left" width=700>
+<img src="/Users/kimkiboum/study/Spring/image/Component Scan.png" align="left" width=700>
 
 - Bean으로 등록할 수 있는 어노테이션, 설정파일을 읽어 IoC 컨테이너에 Bean으로 등록
 
-<img src="https://github.com/KimKiBoum/study/blob/main/Spring/image/IoC Container Bean 등록 과정.png?raw=true" align="left" width=700>
+<img src="/Users/kimkiboum/study/Spring/image/IoC Container Bean 등록 과정.png" align="left" width=700>
 
 - 의존 관계 주입 전 객체의 생성이 일어남
 
@@ -54,7 +54,7 @@
 
     - Car 객체를 만들 때 의존 관계 필요 X
 
-      -> 객체 생성 후 의존 관계 주입으로 Bean LifeCycle이 진행
+      -> 객체 생성 후 의존 관계 주입으로 Bean Life Cycle이 진행
 
 - 초기화 콜백 : 빈이 생성되고 빈의 의존관계 주입이 완료된 후 호출
 
