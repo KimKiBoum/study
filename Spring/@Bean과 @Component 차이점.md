@@ -17,8 +17,6 @@ public RestTemplate restTemplate() {return new RestTemplate();}
 
 <img src = "https://github.com/KimKiBoum/study/blob/main/Spring/image/@Bean.png?raw=true">
 
-<br/><br/>
-
 -> @Target이 METHOD로 지정되어 있지만, TYPE은 없음
 
 ------
