@@ -4,7 +4,7 @@
 - 모듈 간의 결합도 ↓
 - 유연성 ↑
 
-![image-20220418234423310](/Users/kimkiboum/Library/Application Support/typora-user-images/image-20220418234423310.png)
+<img src = "https://github.com/KimKiBoum/study/blob/main/Spring/image/DI.png?raw=ture">
 
 1. A 객체가 B와 C객체를 New 생성자를 통해 직접 생성
 
