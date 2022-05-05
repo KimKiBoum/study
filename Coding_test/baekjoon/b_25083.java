@@ -1,4 +1,4 @@
-package Coding_test;
+package Coding_test.baekjoon;
 public class b_25083 {
     public static void main(String[] args) {
         System.out.printf("         ,r'\"7\n");
