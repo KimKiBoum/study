@@ -1,0 +1,1 @@
+SELECT ins.animal_id, ins.name from animal_ins ins where ins.intake_condition = 'Sick';

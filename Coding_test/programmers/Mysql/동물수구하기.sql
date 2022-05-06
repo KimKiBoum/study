@@ -1,0 +1,1 @@
+SELECT count(ins.animal_id) from animal_ins ins;
