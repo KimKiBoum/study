@@ -1,2 +1,2 @@
 # STUDY
-study
+studyd
