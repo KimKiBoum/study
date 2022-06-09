@@ -4,7 +4,7 @@
 
 ### SOLID
 
-![SOLID](./image/solid 이미지.png)
+![SOLID](./image/solid_이미지.png)
 
 **객체 지향 프로그래밍 및 설계의 다섯가지 기본 원칙**
 
@@ -21,9 +21,9 @@
 
 **예시 1. **
 
-![SRP1](./image/SRP예시 - 1.png)
+![SRP1](./image/SRP예시-1.png)
 
-![SRP2](./image/SRP예시 - 2.png)
+![SRP2](./image/SRP예시-2.png)
 
 **예시 2.**
 
@@ -87,9 +87,9 @@ class WomanDog extends Dog {
 
 **예시 1.**
 
-![OCP1](./image/OCP예시 - 1.png)
+![OCP1](./image/OCP예시-1.png)
 
-![OCP2](./image/OCP예시 - 2.png)
+![OCP2](./image/OCP예시-2.png)
 
 **예시 2.**
 
@@ -195,9 +195,9 @@ class Bus extends Car{
 
 **예시 1.**
 
-![LSP2](./image/LSP예시 - 1.png)
+![LSP2](./image/LSP예시-1.png)
 
-![OCP2](./image/LSP예시 - 2.png)
+![OCP2](./image/LSP예시-2.png)
 
 
 
