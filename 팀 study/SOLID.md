@@ -4,7 +4,7 @@
 
 ### SOLID
 
-![SOLID](./image/solid_이미지.png)
+![SOLID](./image/solid-이미지.png)
 
 **객체 지향 프로그래밍 및 설계의 다섯가지 기본 원칙**
 
