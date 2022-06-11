@@ -77,4 +77,4 @@ https://www.google.com:443/search?q=hello&hl=ko
    <img src="./이미지/URI와_웹_브라우저_요청_흐름/HTTP_응답_메세지.png" alt="URI_이미지" style="zoom:50%" />
 
 4. 응답 메세지의 html 부분을 렌더링하여 사용자에게 전달
-
+![URI_이미지](./이미지/URI와_웹_브라우저_요청_흐름/HTTP_응답_렌더링.png)
