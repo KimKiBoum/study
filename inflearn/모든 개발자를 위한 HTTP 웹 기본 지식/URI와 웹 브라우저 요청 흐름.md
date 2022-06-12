@@ -4,7 +4,7 @@
 
 ------
 
-![URI_이미지](./이미지/URI와_웹_브라우저_요청_흐름/URI_이미지.png)
+<img src="./이미지/URI와_웹_브라우저_요청_흐름/URI_이미지.png"/>
 
 **URI(Uniform Resource Identifier)**
 
