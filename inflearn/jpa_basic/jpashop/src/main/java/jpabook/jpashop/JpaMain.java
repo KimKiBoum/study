@@ -1,12 +1,21 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.domain.*;
+import lombok.extern.slf4j.Slf4j;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.HashSet;
+import java.util.Set;
+
 
 public class JpaMain {
+
+
     public static void main(String[] args) {
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
 
         EntityManager em = emf.createEntityManager();
@@ -15,6 +24,12 @@ public class JpaMain {
         tx.begin();
 
         try {
+
+            Book book = new Book();
+            book.setName("JPA");
+            book.setAuthor("김영한");
+
+            em.persist(book);
             tx.commit();
         } catch (Exception e) {
             tx.rollback();

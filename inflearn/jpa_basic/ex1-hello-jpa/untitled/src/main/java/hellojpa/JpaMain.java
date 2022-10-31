@@ -14,13 +14,20 @@ public class JpaMain {
 
         EntityTransaction tx = em.getTransaction();
         tx.begin();
-
         try {
 
-            Member member = new Member();
-            member.setUsername("C");
+            Movie movie = new Movie();
+            movie.setActor("bbb");
+            movie.setDirector("aaa");
+            movie.setName("바람");
+            movie.setPrice(100000);
 
-            em.persist(member);
+            em.persist(movie);
+            em.flush();
+            em.clear();
+
+            Movie findMovie = em.find(Movie.class, movie.getId());
+            System.out.println("findMovie = " + findMovie);
 
             tx.commit();
         } catch (Exception e) {
