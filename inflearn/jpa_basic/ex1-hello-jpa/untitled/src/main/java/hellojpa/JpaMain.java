@@ -1,5 +1,7 @@
 package hellojpa;
 
+import org.hibernate.Hibernate;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -15,20 +17,17 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         try {
+            Book book = new Book();
+            book.setName("book1");
+            em.persist(book);
 
-            Movie movie = new Movie();
-            movie.setActor("bbb");
-            movie.setDirector("aaa");
-            movie.setName("바람");
-            movie.setPrice(100000);
-
-            em.persist(movie);
             em.flush();
             em.clear();
 
-            Movie findMovie = em.find(Movie.class, movie.getId());
-            System.out.println("findMovie = " + findMovie);
+            Book refBook = em.getReference(Book.class, book.getId());
+            System.out.println("refBook = " + refBook.getClass());
 
+            Hibernate.initialize(refBook);
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
